@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula-7</title>
+</head>
+<body>
+    <div id="fotos">
+        <label for="urlimg1"  onmouseover="ganhoufoco1()">
+            <input 
+            type="text" 
+            id="urlimg1" 
+            placeholder="digite sua url"
+            onblur="perdeufoco1()"/>
+        </label>
+    
+        <label for="urlimg2" onmouseover="ganhoufoco2()">
+            <input 
+            type="text"  
+            id="urlimg2" 
+            placeholder="digite sua url"
+            onblur="perdeufoco2()"/>
+        </label>
+    
+        <label for="urlimg3" onmouseover="ganhoufoco3()">
+            <input 
+            type="text"  
+            id="urlimg3" 
+            placeholder="digite sua url"
+            onblur="perdeufoco3()"/>
+        </label>
+    
+        <button onclick="acao();acao2(); acao3();">enviar</button>
+        
+    
+        <div id="galeria"></div>
+    
+    </div>
+   
+<script src="renderiza.js"></script>
+</body>
+</html>
